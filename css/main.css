@@ -364,12 +364,12 @@ header {
   background-color: transparent;
   border-radius: 50%;
   border: 1px solid var(--color-primery-dark);
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
 .carousel-button:hover {
   background-color: var(--color-primery-dark);
-  fill: var(--color-primery-dark);
+  fill: var(--color-brand-light);
 }
 
 .carousel-button.next {
