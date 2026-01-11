@@ -161,7 +161,7 @@ header {
       rgba(18, 18, 17, 0.6) 58.46%,
       rgba(18, 18, 17, 0) 90.36%
     ),
-    url('../images/hero-section-background.jpg');
+    url('../imag/hero-section-background.jpg');
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -419,14 +419,14 @@ header {
   width: 180px;
   height: 120px;
   left: 0;
-  background-image: url(./imag/decor-breead-smoll.png);
+  background-image: url(../imag/decor-breead-smoll.png);
 }
 
 .footer::after {
   width: 380px;
   height: 190px;
   right: 0;
-  background-image: url(./imag/decor-breead-large.png);
+  background-image: url(../imag/decor-breead-large.png);
 }
 
 .footer-container {
