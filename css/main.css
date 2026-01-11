@@ -401,7 +401,7 @@ header {
   padding: 32px 0;
   position: relative;
   background-color: var(--color-primery-dark);
-  background-image: url('../images/footer-background.png');
+  background-image: url('../imag/footer-background.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -419,14 +419,14 @@ header {
   width: 180px;
   height: 120px;
   left: 0;
-  background-image: url(../images/decor-breead-smoll.png);
+  background-image: url(./imag/decor-breead-smoll.png);
 }
 
 .footer::after {
   width: 380px;
   height: 190px;
   right: 0;
-  background-image: url(../images/decor-breead-large.png);
+  background-image: url(./imag/decor-breead-large.png);
 }
 
 .footer-container {
