@@ -20,13 +20,13 @@
   <body>
     <header>
       <div class="container">
-        <div class="heder-container">
-          <nav class="heder-nav">
+        <div class="header-container">
+          <nav class="header-nav">
             <!-- logo-->
             <a href="./index.html">
               <img src="./images/logo.svg" alt="Логотип сучасної пекарні" />
             </a>
-            <ul class="heder-manu">
+            <ul class="header-manu">
               <li>
                 <a class="link" href="#tradition-saction">Наші традиції</a>
               </li>
@@ -35,7 +35,9 @@
               <li><a class="link" href="#contact-section">Контакти</a></li>
             </ul>
           </nav>
-          <button class="button" type="button">Замовити дзвінок</button>
+          <button class="button modal-btn-open" type="button">
+            Замовити дзвінок
+          </button>
         </div>
       </div>
     </header>
@@ -86,7 +88,8 @@
       <section class="section" id="chefs-section">
         <div class="container">
           <h2 class="chefs-title section-title centered">
-            Наші найкращі <span class="accent">шеф-кухарі</span>
+            Наші найкращі <br />
+            <span class="accent">шеф-кухарі</span>
           </h2>
           <ul class="chefs-list">
             <li class="chef-item">
@@ -183,7 +186,7 @@
                 </article>
               </li>
             </ul>
-            <button class="carousel-button" type="button">
+            <button class="carousel-button next" type="button">
               <svg width="16" height="16">
                 <use href="./images/icons.svg#icon-slider-arrow"></use>
               </svg>
@@ -280,5 +283,13 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <button class="modal-btn-close" type="button">Close</button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
