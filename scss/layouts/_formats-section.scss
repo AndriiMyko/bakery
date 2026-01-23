@@ -1,16 +1,18 @@
-.format-container {
-  display: flex;
-  align-items: center;
-  gap: 32px;
-}
+.formats-section {
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
 
-.format-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
 
-.formats-item {
-  display: grid;
-  flex-basis: calc((100% - 40px) / 3);
+  &__item {
+    display: grid;
+    flex-basis: calc((100% - 40px) / 3);
+  }
 }
